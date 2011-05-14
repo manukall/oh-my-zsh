@@ -6,3 +6,4 @@ zstyle -e ':completion:*' special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(
 alias wine='WINEARCH=win32 wine'
 alias cuc='cucumber --format CucumberSpinner::ProgressBarFormatter'
 alias bp='echo -e "\a"'
+alias logdev='less -R log/development.log'
